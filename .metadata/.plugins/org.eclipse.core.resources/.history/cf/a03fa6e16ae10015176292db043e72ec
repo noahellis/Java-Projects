@@ -1,0 +1,24 @@
+
+public class SalaryComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float hours;
+		float wage;
+		float pay;
+		hours=37f;		
+		wage=22.5f;		
+		pay=hours * wage;
+		
+		
+		
+		System.out.println(pay);
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class SalaryComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float hours;
+		hours=37;
+		float wage;
+		wage=(float)22.5;
+		float pay;
+		pay=hours * wage;
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

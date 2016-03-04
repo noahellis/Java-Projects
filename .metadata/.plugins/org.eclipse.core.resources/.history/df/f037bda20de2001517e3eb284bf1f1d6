@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class ChooseYourOwnAdventure {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner keyboard= new Scanner(System.in);
+			String Choice;
+						
+			
+			
+			System.out.println("You start in a dark room.");
+			System.out.println(" ");
+			System.out.println("Do you turn on a light? Enter 1 for yes and 2 for no");
+			System.out.print("> ");
+			Choice= keyboard.next();
+			switch(Choice){
+			case "yes":
+				System.out.println("Good choice. Nobody likes a dark room. ");
+				break;
+			case "no":
+				System.out.println("Why not? We'll turn it on");
+				break;
+			default:
+				System.out.println("Invalid Response");
+	
+			}
+			
+			System.out.println("You see a knife on the floor.  Do you take it, leave it, or kick it away?");
+			System.out.println(" ");
+			System.out.println(">");
+			Choice= keyboard.next();
+			if (Choice == "take it"){
+				System.out.println("you took the knife");
+			}else if (Choice == "leave it"){
+				System.out.println("you left it behind");
+			}else if (Choice == "kick it away"){
+				System.out.println("stubbed your toe kicking it away");
+			}else{
+				System.out.println("way to go");
+			}
+			
+			System.out.println("You see four items on a table in front of you. Pick one: 1: A hammer,2: An Orange, 3: A feather, 4:" );		
+			
+				
+			
+			
+			
+	}
+	
+}
+

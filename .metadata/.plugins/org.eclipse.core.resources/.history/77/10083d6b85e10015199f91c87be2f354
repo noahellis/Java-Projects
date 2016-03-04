@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class PayCalculator {
+
+    public PayCalculator()
+    {
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("Enter your wage");  
+        double wage = Double.parseDouble(scanner.next()); 
+        System.out.println("Enter your hours");  
+        double hours = Double.parseDouble(scanner.next()); 
+        
+        double netPay= wage*hours;
+        
+        NumberFormat formatter = NumberFormat.getCurrencyInstance(Locale.US);
+    
+        String payFormatted = formatter.format(netPay);
+    
+        System.out.println("You are awarded " + payFormatted);
+        
+    }
+}

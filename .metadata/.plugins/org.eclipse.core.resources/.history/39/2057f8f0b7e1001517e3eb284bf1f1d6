@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class ChooseYourOwnAdventure {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner Player= new Scanner(System.in);
+			Int Choice;
+			Choice= in.nextInt ();
+			
+			
+			
+			System.out.println("You start in a dark room.");
+			System.out.println(" ");
+			System.out.println("Do you turn on a light?");
+			System.out.print("> ");
+			
+			
+				
+			
+			
+			
+	}
+
+}

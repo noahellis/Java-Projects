@@ -1,0 +1,30 @@
+import java.text.NumberFormat;
+import java.util.Locale;
+
+
+public class OvertimeCalculator {
+
+	NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.US);
+		
+		float WorkerARate;
+		float WorkerBRate;
+		float WorkerAHours;
+		float WorkerBHours;
+		WorkerARate= 17.24f;
+		WorkerBRate= 23.34f;
+		WorkerAHours= 34f;
+		WorkerBHours= 47f;
+		
+if (WorkerAHours >40){
+	WorkerARate * 40 + ((WorkerAHours - 40) * (WorkerARate * 1.5));
+}else{
+	WorkerAHours * WorkerARate;
+}
+			
+if (WorkerBHours >40){
+	WorkerBRate * 40 + ((WorkerBHours - 40) * (WorkerBRate * 1.5))
+}else{WorkerBHourse * WorkerBRate;
+}
+	
+}
+	

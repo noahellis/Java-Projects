@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class ChooseYourOwnAdventure {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Scanner Player= new Scanner(System.in);
+			Int Choice;
+			Choice= in.nextInt ();
+			
+			
+			
+			System.out.println("You are in a dark room, do you turn on the light?");
+			
+			
+				
+			
+			
+			
+	}
+
+}

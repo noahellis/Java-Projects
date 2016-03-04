@@ -1,0 +1,16 @@
+
+public class SalaryComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int hours;
+		hours=37;
+		float wage;
+		wage=(float)22.5;
+		float weeklysalary;
+		weeklysalary=hours*wage;
+		
+		
+	}
+
+}
